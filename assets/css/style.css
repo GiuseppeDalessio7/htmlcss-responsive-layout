@@ -267,44 +267,99 @@ body {
 #plane .row {
     padding: 3rem 0;
     margin: 0 -2rem;
- }
- 
- #plane [class^="col-"] {
-     padding: 0 2rem;
- }
- 
- #plane .card {
-     height: 100%;
- }
- 
- #plane .left .card h2 {
-     padding-bottom: 5rem;
-     font-size: 2.5rem;
- }
- 
- #planning .left .card{
-     margin-bottom: -2rem;
- }
- 
- #plane .right .card{
-     padding: 2rem 1rem;
- }
- 
- #plane .right .card h2{
-     padding: 1rem 0;
-     font-size: 2rem;
- }
- 
- 
- #plane .arrow {
-     background-color: var(--rl-primary);
-     border-radius: 50%;
-     margin-top: 2rem;
-     padding: 2rem 1.5rem;
-     color: var(--rl-black);
- }
+}
 
-/* #endregion planning */
+#plane [class^="col-"] {
+    padding: 0 2rem;
+}
+
+#plane .card {
+    height: 100%;
+}
+
+#plane .left .card h2 {
+    padding-bottom: 5rem;
+    font-size: 2.5rem;
+}
+
+#planning .left .card {
+    margin-bottom: -2rem;
+}
+
+#plane .right .card {
+    padding: 2rem 1rem;
+}
+
+#plane .right .card h2 {
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+
+
+#plane .arrow {
+    background-color: var(--rl-primary);
+    border-radius: 50%;
+    margin-top: 2rem;
+    padding: 2rem 1.5rem;
+    color: var(--rl-black);
+}
+
+/* #endregion plane */
+
+#partners [class^="col-"] {
+    margin: 1rem 0;
+}
+
+#partners .row {
+    padding-bottom: 4rem;
+}
+
+#partners header {
+    padding: 2.5rem 0;
+}
+
+#partners header h1 {
+    font-size: 2.5rem;
+    padding: 2rem 0;
+    line-height: 140%;
+    color: var(--rl-primary);
+}
+
+#partners .card {
+    background-color: var(--rl-primary);
+    color: var(--rl-white);
+    border-radius: 30px;
+    padding: 2rem 1rem;
+}
+
+#partners .card p {
+    padding: 1rem 0;
+}
+
+#partners .card .nat,
+#partners .card .celia,
+#partners .card .bob {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+#partners .nat {
+    background-image: url("/img/testimonial1.jpg");
+}
+
+#partners .celia {
+    background-image: url("/img/testimonial2.jpg");
+}
+
+#partners .bob {
+    background-image: url("/img/testimonial3.jpg");
+}
+
+/* #endregion partners */
 
 /* #endregion #site_main */
 
@@ -343,7 +398,7 @@ body {
         padding: 5rem 0;
         font-size: 2.5rem;
     }
-    
+
 }
 
 /* Desktop media query */
