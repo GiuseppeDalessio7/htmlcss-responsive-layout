@@ -149,10 +149,11 @@ body {
 
 .btn-lg {
     display: inline-block;
-    background-color: var(--rl-white);
-    color: var(--rl-black);
+    background-color: var(--rl-primary);
+    color: var(--rl-white);
     padding: 0.35rem 3.5rem;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 /* #endregion utilities */
@@ -216,7 +217,6 @@ body {
 }
 
 #services .card .card_text {
-    /* line-height: 160%; */
     font-weight: bold;
     color: var(--rl-light);
 }
@@ -344,7 +344,6 @@ body {
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-    flex-shrink: 0;
 }
 
 #partners .nat {
@@ -360,6 +359,57 @@ body {
 }
 
 /* #endregion partners */
+
+/* #region benefit */
+
+#benefit {
+    background-color: var(--rl-primary);
+}
+
+#benefit .row {
+    padding-bottom: 4rem;
+    margin: 0 -1rem
+}
+
+#benefit [class^="col-"] {
+    padding: 1rem;
+}
+
+#benefit .container > h1{
+    color: var(--rl-white);
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem 0;
+    line-height: 130%;
+}
+
+#benefit .card {
+    background-color: var(--rl-white);
+    border-radius: 30px;
+    padding: 2.5rem 2rem;
+}
+
+#benefit h1,
+#benefit h2{
+    color: var(--rl-primary);
+}
+
+#benefit .card h1 {
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+#benefit .card p {
+    padding: 1.5rem 0;
+    color: var(--rl-dark);
+}
+
+#benefit .card h2 {
+    padding-top: 3rem;
+}
+
+
+/* #endregion benefit */
+
 
 /* #endregion #site_main */
 
@@ -382,22 +432,22 @@ body {
     #services .card .btn-lg {
         display: block;
         max-width: 50%;
-        padding: .25rem 1.5rem;
+        
     }
 
     .img-fluid {
         display: block;
         max-width: 50%;
     }
-
-    #plane .row {
-        padding-top: 7rem;
-    }
-
+    
     #plane .left .card h2 {
         padding: 5rem 0;
         font-size: 2.5rem;
     }
+    #plane .row {
+        padding-top: 7rem;
+    }
+
 
 }
 
