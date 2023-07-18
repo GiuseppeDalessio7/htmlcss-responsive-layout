@@ -426,10 +426,6 @@ body {
     font-size: 5rem;
 }
 
-/* #about .info p{
-    padding: 2rem 2rem 2rem 0; 
-} */
-
 #about h2{
     font-size: 1.5rem;
 }
@@ -477,8 +473,79 @@ body {
 }
 /* #endregion about */
 
+/* #region free */
+
+#free {
+    background-color: var(--rl-primary);
+}
+
+#free h1 {
+    font-size: 4rem;
+    color: var(--rl-warning);
+    padding: 2rem 0;
+}   
+
+#free h2 {
+    font-size: 1.75rem;
+    line-height: 150%;
+}   
+
+#free h3 {
+    font-size: 1.25rem;
+    color: var(--rl-light);
+}  
+
+#free p {
+    line-height: 170%;
+}
+
+#free h2, #free p, #free .privacy {
+    color: var(--rl-white);
+    padding: 1rem;
+}
+
+
+#free .btn{
+    text-decoration: none;
+    color: var(--rl-primary);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+}
+
+#free .privacy {
+    line-height: 120%;
+    font-size: 0.8rem;
+}
+
+#free .privacy a{
+    color: var(--rl-white);
+}
+
+
+/* #endregion free */
 
 /* #endregion #site_main */
+
+#site_footer{
+    background-color: var(--rl-dark);
+    color: var(--rl-white);
+}
+
+#site_footer p{
+    padding: 2rem 0;
+}
+
+.boolean_c {
+    padding-bottom: 2rem;
+}
+.boolean_c a{
+    color: var(--rl-primary);
+}
+/* #endregion #site_footer */
+
+
+
 
 /* Tablet media query */
 
